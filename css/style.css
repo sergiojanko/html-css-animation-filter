@@ -71,9 +71,16 @@
     filter: grayscale(0.6) saturate(0.5);
     border-radius: 20px;
 }
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
+}
+.ex-9-img:hover{
+    border-radius: 20px;
+    filter: grayscale(0.5) sepia(0.5);
+    transform: scale(1.5);
 }
 .ex-10-icon {
     font-size: 60px;
